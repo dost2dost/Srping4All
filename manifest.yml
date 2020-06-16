@@ -1,0 +1,8 @@
+applications:
+-name:springforall
+memory:1G
+instance:1
+path:./target/app.jar
+
+env:
+SPRING_PROFILE_ACTIVE=prod

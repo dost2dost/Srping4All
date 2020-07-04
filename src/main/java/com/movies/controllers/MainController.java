@@ -23,6 +23,8 @@ import javax.validation.Valid;
 public class MainController {
     @Autowired
     MovieService movieService;
+
+
     @GetMapping("/getMovies")
     public Object getMovies(@RequestParam String filterBy){
         List<Movie> movies=null;
